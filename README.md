@@ -10,12 +10,14 @@ A modern, full-featured Hiko built with React, Vite, and Tailwind CSS.
 ## 🚀 Features
 
 ### 🔐 Authentication
+
 - Email/password authentication
 - Google OAuth integration
 - Protected routes
 - Persistent login sessions
 
 ### 📚 Course Management
+
 - Browse all courses with category filtering
 - View detailed course information
 - Enroll in courses
@@ -24,12 +26,14 @@ A modern, full-featured Hiko built with React, Vite, and Tailwind CSS.
 - Delete courses with confirmation
 
 ### 🎯 Dashboard
+
 - View enrolled courses
 - Add new courses with image upload
 - Manage your created courses
 - Responsive sidebar navigation
 
 ### 🎨 UI/UX
+
 - Beautiful, modern design
 - Dark/light theme toggle with persistence
 - Smooth animations with Framer Motion
@@ -60,12 +64,14 @@ A modern, full-featured Hiko built with React, Vite, and Tailwind CSS.
 ## ⚙️ Installation
 
 1. **Clone the repository**
+
 ```bash
-git clone https://github.com/mahfuzzayn/hiko.git
+git clone https://github.com/mujahidulislam/hiko.git
 cd hiko
 ```
 
 2. **Install dependencies**
+
 ```bash
 npm install
 ```
@@ -91,6 +97,7 @@ VITE_IMGBB_API_KEY=your_imgbb_api_key
 ```
 
 4. **Start development server**
+
 ```bash
 npm run dev
 ```
@@ -133,22 +140,23 @@ client/
 
 ## 🔑 Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `VITE_API_URL` | Backend API base URL | Yes |
-| `VITE_FIREBASE_API_KEY` | Firebase API key | Yes |
-| `VITE_FIREBASE_AUTH_DOMAIN` | Firebase auth domain | Yes |
-| `VITE_FIREBASE_PROJECT_ID` | Firebase project ID | Yes |
-| `VITE_FIREBASE_STORAGE_BUCKET` | Firebase storage bucket | Yes |
-| `VITE_FIREBASE_MESSAGING_SENDER_ID` | Firebase messaging sender ID | Yes |
-| `VITE_FIREBASE_APP_ID` | Firebase app ID | Yes |
-| `VITE_IMGBB_API_KEY` | ImgBB API key for image uploads | Yes |
+| Variable                            | Description                     | Required |
+| ----------------------------------- | ------------------------------- | -------- |
+| `VITE_API_URL`                      | Backend API base URL            | Yes      |
+| `VITE_FIREBASE_API_KEY`             | Firebase API key                | Yes      |
+| `VITE_FIREBASE_AUTH_DOMAIN`         | Firebase auth domain            | Yes      |
+| `VITE_FIREBASE_PROJECT_ID`          | Firebase project ID             | Yes      |
+| `VITE_FIREBASE_STORAGE_BUCKET`      | Firebase storage bucket         | Yes      |
+| `VITE_FIREBASE_MESSAGING_SENDER_ID` | Firebase messaging sender ID    | Yes      |
+| `VITE_FIREBASE_APP_ID`              | Firebase app ID                 | Yes      |
+| `VITE_IMGBB_API_KEY`                | ImgBB API key for image uploads | Yes      |
 
 ## 🌐 API Endpoints
 
 The application expects the following API endpoints:
 
 ### Courses
+
 - `GET /courses` - Get all courses
 - `GET /courses/:id` - Get single course
 - `POST /courses` - Create course
@@ -156,12 +164,14 @@ The application expects the following API endpoints:
 - `DELETE /courses/:id` - Delete course
 
 ### Enrollments
+
 - `GET /enrollments?userEmail={email}` - Get user enrollments
 - `POST /enrollments` - Create enrollment
 
 ## 📱 Responsive Design
 
 The application is fully responsive and optimized for:
+
 - 📱 Mobile devices (< 768px)
 - 📱 Tablets (768px - 1024px)
 - 💻 Desktops (> 1024px)
@@ -178,11 +188,13 @@ The application is fully responsive and optimized for:
 ### Vercel (Recommended)
 
 1. Install Vercel CLI:
+
 ```bash
 npm i -g vercel
 ```
 
 2. Deploy:
+
 ```bash
 vercel
 ```
@@ -192,6 +204,7 @@ vercel
 ### Netlify
 
 1. Build the project:
+
 ```bash
 npm run build
 ```
@@ -203,6 +216,7 @@ npm run build
 ### Other Platforms
 
 The application can be deployed to any static hosting service that supports SPAs:
+
 - GitHub Pages
 - Firebase Hosting
 - AWS S3 + CloudFront
@@ -214,8 +228,9 @@ This project is licensed under the MIT License.
 
 ## 👨‍💻 Author
 
-**Mahfuz Zayn**
-- GitHub: [@mahfuzzayn](https://github.com/mahfuzzayn)
+**Mujahidul Islam Arif**
+
+- GitHub: [@RoBOooooooo](https://github.com/RoBOooooooo)
 
 ## 🙏 Acknowledgments
 
@@ -227,7 +242,7 @@ This project is licensed under the MIT License.
 
 ## 📞 Support
 
-For support, email mahfuz.dev@example.com or open an issue in the repository.
+For support, email mujahidarif120@gmail.com or open an issue in the repository.
 
 ---
 
